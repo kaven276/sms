@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="LanguageInjectionConfiguration">
+    <injection language="CSS" injector-id="xml">
+      <display-name>form</display-name>
+      <place><![CDATA[xmlTag().withLocalName(string().equalTo("form")).withNamespace(string().equalTo("http://www.w3.org/1999/html"))]]></place>
+    </injection>
+  </component>
+</project>
+

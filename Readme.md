@@ -4,4 +4,8 @@ using node to implement the telecommunication industry's SGIP/SMPP protocol for 
 
 How oracle send request to this NodeJS SMS proxy module.
 ====
-dsdsddfdf扥扥扥扥扥送扥冬粉东方斯扥冬粉
+
+
+  The node_sms module SP will convert a SMG for SP as a local API call, you can use
+
+  SP.send(new Submit([tele number ...], content), function(err, sendMsg, respMsg) );
