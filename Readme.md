@@ -23,25 +23,25 @@ Examples:
 
   You can read the test part in every code file, like "lib/nodes/nodeSP.js".
 
-  var sp = new SP('202.99.87.201', 8801, 'dialbook', 'dialbooktest', 8801, '', 'dialbook', 'dialbooktest');
-  var msg = new Submit('8615620001781', 8, 'some ucs2 encoded test or just a Buffer object', {'ReportFlag':1});
+	var sp = new SP('202.99.87.201', 8801, 'dialbook', 'dialbooktest', 8801, '', 'dialbook', 'dialbooktest');
+	var msg = new Submit('8615620001781', 8, 'some ucs2 encoded test or just a Buffer object', {'ReportFlag':1});
 
-  // event mode
-  sp.send(msg);
-  sp.on('resp', function(msgResp, msgSend){
-    console.log('send message success for :');
-    console.log(msgResp);
-    console.log(sp.ackQueue.length);
-  });
+	// event mode
+	sp.send(msg);
+	sp.on('resp', function(msgResp, msgSend){
+		console.log('send message success for :');
+		console.log(msgResp);
+		console.log(sp.ackQueue.length);
+	});
 
-  // callback mode
-  sp.send(msg,function(res, req){
-    // console.log('pair are', req, res, 'end');
-  });
+	// callback mode
+	sp.send(msg,function(res, req){
+		// console.log('pair are', req, res, 'end');
+	});
 
-  // accept SMG request, like report, deliver, ...
-  sp.on('request', function(req){
-    console.log('\nReport:');
-    console.log(req);
-  });
+	// accept SMG request, like report, deliver, ...
+	sp.on('request', function(req){
+		console.log('\nReport:');
+		console.log(req);
+	});
 
