@@ -6,6 +6,8 @@
  */
 var bUnitText = (process.argv[1] === __filename);
 
+exports.AttrCfg = require('./lib/AttrCfg.js');
+
 /*
  var mCmd = require('./lib/Commands.js');
  exports.Cmds = mCmd.Cmds;
