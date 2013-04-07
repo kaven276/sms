@@ -27,14 +27,14 @@ sp.on('request', function(req){
 
 var server = net.createServer(function(extHubSock){
   console.log('connect from ext_hub');
-  var sid, serial;
   var spliter = new StreamSpliter(extHubSock, 'readInt32BE');
   spliter.on('message', function onMessage(req){
     console.log('message length is ', req.length);
     var lines = req.slice(8).toString().split('\n');
+    var smg = lines.shift();
     var target = lines.shift();
     var content = lines.join('\n');
-    var msg = new Submit(target, 8, content, {"SPNumber" : '10655022400312345678'});
+    var msg = new Submit(target, 8, content, {"SPNumber" : '106550224003'});
     msg.rowid = 'AAAS2sAAEAAACEjAAA';
     console.log(msg);
     sp.send(msg, function(res, req){
@@ -44,4 +44,4 @@ var server = net.createServer(function(extHubSock){
     });
   });
 });
-server.listen(1526);
+server.listen(1527);
