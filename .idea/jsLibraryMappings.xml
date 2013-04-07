@@ -9,9 +9,7 @@
     <excludedPredefinedLibrary name="DOM Traversal And Range" />
     <excludedPredefinedLibrary name="DOM XPath" />
     <excludedPredefinedLibrary name="EcmaScript L5" />
-    <excludedPredefinedLibrary name="EcmaScript for XML" />
     <excludedPredefinedLibrary name="HTML 5" />
-    <excludedPredefinedLibrary name="WebGL" />
   </component>
 </project>
 
