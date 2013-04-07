@@ -1,20 +1,22 @@
 {
-  "author" : "Li Yong <kaven276@vip.sina.com>",
-  "name" : "node_sms",
-  "description" : "SGIP implementation for SP,SMG,GNS",
-  "version" : "0.1.0",
-  "repository" : {
-    "type" : "git",
-    "url" : "git://github.com/kaven276/sms.git"
-  },
-  "main" : "SGIP.js",
-  "scripts" : {
-  },
-  "engines" : {
-    "node" : ">=0.6.2"
-  },
-  "dependencies" : {
-  },
-  "devDependencies" : {
-  }
+	"author" : "Li Yong <kaven276@vip.sina.com>",
+	"name" : "SMS-SGIP",
+	"description" : "SGIP sms protocol(China UC) implementation for SP,SMG,GNS",
+	"keywords" : ["sms", "sgip"],
+	"version" : "0.1.1",
+	"repository" : {
+		"type" : "git",
+		"url" : "git://github.com/kaven276/sms.git"
+	},
+	"main" : "SGIP.js",
+	"scripts" : {
+	},
+	"engines" : {
+		"node" : ">=0.6.2"
+	},
+	"dependencies" : {
+		"node-queue-pool" : "*"
+	},
+	"devDependencies" : {
+	}
 }

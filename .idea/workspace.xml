@@ -6,13 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="d15d8f18-97e7-45fb-815c-2b24e1d48598" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SMS_table.sql" afterPath="$PROJECT_DIR$/SMS_table.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/nodes/nodeSP.js" afterPath="$PROJECT_DIR$/lib/nodes/nodeSP.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Commands.js" afterPath="$PROJECT_DIR$/lib/Commands.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/as_proxy.js" afterPath="$PROJECT_DIR$/test/as_proxy.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test1.js" afterPath="$PROJECT_DIR$/test/test1.js" />
     </list>
     <ignored path="node_sms.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -59,7 +55,7 @@
       <file leaf-file-name="nodeSP.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/nodes/nodeSP.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="80" column="40" selection-start="2368" selection-end="2368" vertical-scroll-proportion="0.0">
+            <state line="86" column="23" selection-start="2569" selection-end="2569" vertical-scroll-proportion="-1.84">
               <folding>
                 <element signature="e#5121#8406#0" expanded="false" />
               </folding>
@@ -67,10 +63,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="47" selection-end="47" vertical-scroll-proportion="0.14634146">
+            <state line="6" column="0" selection-start="47" selection-end="47" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -121,10 +117,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Commands.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Commands.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/Commands.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="224" column="2" selection-start="5326" selection-end="5691" vertical-scroll-proportion="0.0">
+            <state line="212" column="1" selection-start="5306" selection-end="5306" vertical-scroll-proportion="0.3324397">
               <folding />
             </state>
           </provider>
@@ -160,13 +156,13 @@
         <option value="$PROJECT_DIR$/lib/cmdSeq.js" />
         <option value="$PROJECT_DIR$/SGIP.js" />
         <option value="$PROJECT_DIR$/lib/cmds/cmdSubmit.js" />
-        <option value="$PROJECT_DIR$/lib/Commands.js" />
         <option value="$PROJECT_DIR$/doc/smpp.md" />
         <option value="$PROJECT_DIR$/lib/util.js" />
         <option value="$PROJECT_DIR$/lib/nodes/nodeSP.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/memo.md" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/lib/Commands.js" />
       </list>
     </option>
   </component>
@@ -500,6 +496,7 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3287879" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18699187" sideWeight="0.40151516" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18994413" sideWeight="0.67121214" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39848486" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -511,7 +508,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287879" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23787878" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -582,7 +578,7 @@
           <option name="timeStamp" value="1" />
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="10163" />
+      <option name="time" value="10167" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -620,13 +616,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Commands.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="224" column="2" selection-start="5326" selection-end="5691" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/CmdSeq.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="23" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0">
@@ -645,15 +634,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="51" column="31" selection-start="1035" selection-end="1035" vertical-scroll-proportion="0.0">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/nodes/nodeSP.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="40" selection-start="2368" selection-end="2368" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#5121#8406#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -687,7 +667,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="47" selection-end="47" vertical-scroll-proportion="0.14634146">
+        <state line="6" column="0" selection-start="47" selection-end="47" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/nodes/nodeSP.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="86" column="23" selection-start="2569" selection-end="2569" vertical-scroll-proportion="-1.84">
+          <folding>
+            <element signature="e#5121#8406#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Commands.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="212" column="1" selection-start="5306" selection-end="5306" vertical-scroll-proportion="0.3324397">
           <folding />
         </state>
       </provider>
