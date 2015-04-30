@@ -1,23 +1,27 @@
 {
-	"author" : "Li Yong <kaven276@vip.sina.com>",
-	"name" : "sms-sgip",
-	"description" : "SGIP sms protocol(China UC) implementation for SP,SMG,GNS",
-	"keywords" : ["sms", "sgip"],
-	"version" : "0.2.1",
-	"repository" : {
-		"type" : "git",
-		"url" : "git://github.com/kaven276/sms.git"
-	},
-	"main" : "SGIP.js",
-	"scripts" : {
-		"deploy" : "rsync -av -C -e 'ssh -p 60222' /Users/cuccpkfs/dev/project/sms/node_sms/ node@noradle.com:sms-sgip/"
-	},
-	"engines" : {
-		"node" : ">=0.6.2"
-	},
-	"dependencies" : {
-		"node-queue-pool" : "*"
-	},
-	"devDependencies" : {
-	}
+  "author": "Li Yong <kaven276@vip.sina.com>",
+  "name": "sms-sgip",
+  "description": "SGIP sms protocol(China UC) implementation for SP,SMG,GNS",
+  "keywords": [
+    "sms",
+    "sgip"
+  ],
+  "version": "0.2.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kaven276/sms.git"
+  },
+  "main": "SGIP.js",
+  "scripts": {
+    "deploy": "rsync -av -C -e 'ssh -p 60222' /Users/cuccpkfs/dev/project/sms/node_sms/ node@noradle.com:sms-sgip/"
+  },
+  "engines": {
+    "node": ">=0.6.2"
+  },
+  "dependencies": {
+    "node-queue-pool": "*",
+    "debug": "2.1.1"
+  },
+  "devDependencies": {
+  }
 }
